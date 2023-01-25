@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminPanelMasterpage.master.cs" Inherits="H2o_Finance.AdminPanel.AdminPanelMasterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Style/MainCSS.css" rel="stylesheet" />
+    <link href="Style/SayfalarCSS.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" style="height: 100%">
+        <div class="header silver">
+            <div>
+                <a href="AdminPanelHomePage.aspx">
+                    <img class="H2Ologo" src="images/H2oDamlaLogo.png" /></a>
+            </div>
+            <div>
+                <h1>Admin Panel</h1>
+            </div>
+            <div class="cikis">
+                <asp:Label ID="lbl_kisiadi" runat="server"></asp:Label>
+                <asp:LinkButton ID="ltbn_cikis" runat="server" Text="ÇIKIŞ" OnClick="ltbn_cikis_Click"></asp:LinkButton>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="sideContainer lila">
+                <a href="KriptoEkle.aspx">Kripto Ekle</a> <br />  
+                <a href="NFTEkle.aspx">NFT Ekle</a> <br /> 
+                <a href="BakiyeEkle.aspx">Bakiye Onay</a>
+            </div>
+            <div class="contentContainer">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+
+    </form>
+</body>
+</html>

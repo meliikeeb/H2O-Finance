@@ -1,0 +1,73 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Unbounded;
+}
+
+html, body {
+    background-image: url('../images/girissayfasi.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.giris {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 30%;
+    height: 100%;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#tb_mail
+{
+    border-radius:13px;
+    margin-bottom:5px;
+}
+#tb_sifre
+{
+    border-radius:13px;
+}
+.content input {
+    height: 40px;
+}
+#lbtn_giris 
+{
+    background-color:#004F4F;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    padding:8px;
+    margin:20px auto;
+    border-radius:15px;
+    width:50px;
+}
+.content img
+{
+    width:230px;
+    margin-bottom:20px;
+
+}
+#pnl_hata
+{
+    margin-bottom:5px;
+    background-color:darkred;
+    color:white;
+    font-size:6pt;
+    border-radius:5px;
+    text-align:center;
+    padding:8px;
+}

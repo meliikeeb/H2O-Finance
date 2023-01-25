@@ -1,0 +1,13 @@
+﻿
+.homepage {
+    height: 100%;
+    background-color: #d57ac2;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+    .homepage img {
+        width: 350px;
+    }
