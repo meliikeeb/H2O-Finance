@@ -8,6 +8,6 @@ namespace DataAccessLayer
 {
     public  class ConnectionString
     {
-        public static string H2OCon = @"Data Source=.\SQLEXPRESS; Initial Catalog=H2OFinance;Integrated Security=True";
+        public static string con = @"Data Source=.\SQLEXPRESS; Initial Catalog=H2OFinance;Integrated Security=True";
     }
 }

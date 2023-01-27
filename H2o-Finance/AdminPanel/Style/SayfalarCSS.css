@@ -11,3 +11,61 @@
     .homepage img {
         width: 350px;
     }
+
+.ekleContainer {
+    background-color: palevioletred;
+    height: 100%;
+}
+
+.ekleTitle 
+{
+    text-align:center;
+    padding-top:70px;
+}
+
+.ekleContent {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: grid;
+    width: 40%;
+}
+
+    .ekleContent a {
+        background-color: #0d0909;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 5px;
+        margin: 10px auto;
+        color: white;
+    }
+
+.TextBox {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 35px;
+}
+.ekleContent a:hover{
+    color:palevioletred;
+}
+.basarili
+{
+    background-color:#1960b8;
+    border-radius:5px;
+    text-align:center;
+    padding:7px;
+}
+.basarisiz {
+    background-color:#ff6a00;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+}
+.resimekle
+{
+    width:inherit;
+    font-size:10px;
+
+   
+}

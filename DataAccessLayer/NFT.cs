@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer
 {
-    public class Coinler
+    public class NFT
     {
         public int ID { get; set; }
-        public string Isim { get; set; }
-        public int Max_Arz { get; set; }
-        public string CoinNick { get; set; }
-        public string Resim { get; set; }
+        public string isim { get; set; }
+
+        public decimal fiyat { get; set; }
+        public string resim { get; set; }
     }
 }

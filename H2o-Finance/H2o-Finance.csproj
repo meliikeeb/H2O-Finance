@@ -67,65 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminPanel\AdminGiris.aspx" />
-    <Content Include="AdminPanel\AdminPanelHomePage.aspx" />
-    <Content Include="AdminPanel\BakiyeEkle.aspx" />
-    <Content Include="AdminPanel\images\GirisSayfasi.png" />
-    <Content Include="AdminPanel\images\H2oDamlaLogo.png" />
-    <Content Include="AdminPanel\KriptoEkle.aspx" />
-    <Content Include="AdminPanel\NFTEkle.aspx" />
-    <Content Include="AdminPanel\Style\AdminGirisCSS.css" />
-    <Content Include="AdminPanel\Style\MainCSS.css" />
-    <Content Include="AdminPanel\Style\SayfalarCSS.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminPanel\AdminGiris.aspx.cs">
-      <DependentUpon>AdminGiris.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPanel\AdminGiris.aspx.designer.cs">
-      <DependentUpon>AdminGiris.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminPanel\AdminPanelHomePage.aspx.cs">
-      <DependentUpon>AdminPanelHomePage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPanel\AdminPanelHomePage.aspx.designer.cs">
-      <DependentUpon>AdminPanelHomePage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminPanel\AdminPanelMasterpage.Master.cs">
-      <DependentUpon>AdminPanelMasterpage.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPanel\AdminPanelMasterpage.Master.designer.cs">
-      <DependentUpon>AdminPanelMasterpage.Master</DependentUpon>
-    </Compile>
-    <Compile Include="AdminPanel\BakiyeEkle.aspx.cs">
-      <DependentUpon>BakiyeEkle.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPanel\BakiyeEkle.aspx.designer.cs">
-      <DependentUpon>BakiyeEkle.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminPanel\KriptoEkle.aspx.cs">
-      <DependentUpon>KriptoEkle.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPanel\KriptoEkle.aspx.designer.cs">
-      <DependentUpon>KriptoEkle.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminPanel\NFTEkle.aspx.cs">
-      <DependentUpon>NFTEkle.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminPanel\NFTEkle.aspx.designer.cs">
-      <DependentUpon>NFTEkle.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AdminPanel\AdminPanelMasterpage.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -133,12 +80,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
-      <Project>{11d51b68-21db-495e-9ea9-1c5534dab42f}</Project>
-      <Name>DataAccessLayer</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
